@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> A3D | Cadastro </title>
+    <meta name="theme-color" content="black"/> 
+    <link rel="icon" type="imagem/png" href="../imagens/logo_barra.png" />
+
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/cadastro.css" rel="stylesheet">
+    <script type="text/javascript" src="../js/cadastro.js"></script>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <nav>
+        <section class="menu">
+            <img class="logo" src="../imagens/logo_laranja.png">
+            <div class="nave">
+
+                <form action='/' method='post'>
+                    <input type='text' name='pesquisa' placeholder='Digite o que você procura'>
+                    <button type='submit'> <i class="fa fa-search"></i></button>
+                </form>
+
+                <div class="login">
+                    <i class="fas fa-user-astronaut"></i>
+                    <a class="linkCad" href="paginas/login.html"> Entrar ou Cadastrar </a>
+                </div>
+
+                <div class="compra">
+                    <i class="fas fa-shopping-cart"></i>
+                    <div class="carrinho">
+                        <p> Carrinho Vazio </p>
+                        <p> R$ 0,00</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="submenu">
+            <a class="sobre" href="#"> Sobre Nós </a>
+            <div class="categorias">
+                <a href="#"> Presentes </a>
+                <a href="#"> Customizados </a>
+                <a href="#"> Decoração </a>
+                <a href="#"> Geek </a>
+                <a href="#"> Escritório </a>
+            </div>
+        </section>
+    </nav>
+    
+
+    <!-------------------->
+    <!-- SEÇÃO CADASTRO -->
+    <!-------------------->
+    <section class="cadastro">
+        <form action='/' method='post' class="formsCadastro">
+            <p> Entrar na sua conta </p>          
+            <p style="font-size: 14px; "> Não tem uma conta? <a href="cadastro.html">Crie uma</a>, é grátis! </p>
+            <input id="mail" type='email' name='email' placeholder='Digite seu melhor email' required>
+            <div class="senha" onclick="selecionado('.senha')">
+                <input id="senha" type='password' name='senha' placeholder='Digite sua senha' required>
+                <a id="imagemSenha" onclick="mostrarSenha()"> <i class="fas fa-eye"></i> </a>
+            </div>   
+            <button class="btn" type='submit'> ENTRAR </button>
+            <p style="text-align: center; font-size: 14px; margin-bottom: 5px;"> <a href="#">Esqueci a senha</a> </p>
+        </form>
+    </section>
+    <!------------------------>
+    <!-- FIM SEÇÃO CADASTRO -->
+    <!------------------------>
+</body>
+</html>
+
+
+
+        <!--<img class="imgForms" src="../imagens/atronauta_criarConta.png">-->

@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+}
+
+nav i{
+    color: #FB9B11;
+    margin-right: 8px;
+    font-size: 25px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+
+    background-color: black;
+    color: white;
+}
+
+.logo{
+    height: 45px;
+}
+
+.nave{
+    display: flex;  
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    width: 70%;
+    align-items: center;
+}
+
+.linkCad{
+    text-decoration: none;
+    color: white;
+}
+
+nav form{
+    border: 1px solid #FB9B11;
+    height: 40px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 5px 2px 15px;
+}
+
+nav form input{
+    border: none;
+    background-color: transparent;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    width: 90%;
+}
+
+nav form button{
+    border: none;
+    background-color: transparent;
+    color: #FB9B11;
+    height: 40px;
+    width: 40px;
+}
+
+.compra{
+    display: flex;    
+    align-items: center;
+}
+
+.carrinho p{
+    margin: 0 5px;
+}
+
+.submenu{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 44px;
+    padding: 0 17px;
+}
+.submenu a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter', sans-serif;
+}
+
+.sobre{
+    text-align: center;
+    width: 8.5%;
+}
+
+.categorias{
+    border-left: 1px solid black;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    width: 90%;
+}
+
+.categorias a{
+    margin: 0 40px;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.imgFtr{    
+    min-height: 134px;
+    width: 102px;
+    background-size: 110px;
+    background-repeat: no-repeat;
+    background-image: url("../imagens/atronauta_contato.png");
+    top: -92px;
+    position: relative;
+}
+
+.conteudoFtr{
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteudoFtr p{
+    font-family: 'Inter', sans-serif;
+}
+
+.formaPag img{
+    height: 30px;
+    margin: 0 8px;
+}
+
+.redes{
+    display: flex;
+}
+
+.redes a{
+    text-decoration: none;
+    color: #FB9B11;
+    font-size: 30px;
+    margin: 5px 20px;
+}

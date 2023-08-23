@@ -1,0 +1,84 @@
+body{
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadastro{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 50%;
+    /*width: 700px;*/
+    font-family: 'Inter', sans-serif;
+    padding: 15px 0;
+    margin: 20px 0;
+}
+
+.formsCadastro{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.nomeSobrenome{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nomeSobrenome input{
+    width: 44%;
+}
+
+.nomeSobrenome input, #mail, .senha{
+    border: 1px solid #FB9B11;
+    height: 30px;
+    margin-bottom: 25px;
+    padding-left: 15px;
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#senha{
+    border: none;
+    width: 85%;
+    font-family: 'Inter', sans-serif;
+    color: #333333;
+}
+
+input:focus{
+    outline: 0; 
+}
+
+#imagemSenha{
+    padding-right: 15px;
+}
+
+.btn{
+    background-color: #FB9B11;
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+.formsCadastro a{
+    color: #FB9B11;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/*@-webkit-keyframes cima_baixo { from { margin-top: -100px; } to { margin-top: -10px; }  }
+          @keyframes cima_baixo { from { margin-top: -100px; } to { margin-top: -10px; }  }*/
+

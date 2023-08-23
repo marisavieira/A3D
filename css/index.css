@@ -1,0 +1,260 @@
+.hdr{
+    height: 500px;
+    background-image: url("../imagens/korablik-2681190.jpg");
+    background-size: cover;
+    background-position: center; 
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.hdr h1{
+    margin: 0 0 25px 0;
+    padding: 0;
+}
+
+.hdr a{
+    border: 2px solid #FB9B11;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.hdr a:hover{
+    background-color: #FB9B11;
+}
+
+.conteudo{
+    background-color: rgba(0,0,0, 0.5);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.imgLogo{
+    height: 100px;
+}
+
+.descricao{
+    font-size: 18px;
+}
+
+
+.lancamentos{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;   
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #EEEEEE;
+    padding-bottom: 30px;
+    /*margin-top: 45px;*/
+}
+
+.destaques{
+    position: relative;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.imgLnc{
+    height: 100px;
+    width: 91.98px;
+    background-size: 90px;
+    background-repeat: no-repeat;
+    animation-duration: 1.5s;
+    animation-name: cima_baixo ;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+    background-image: url("../imagens/astronauta_lancamento.png");
+}
+@-webkit-keyframes cima_baixo { from { margin-top: -100px; } to { margin-top: -10px; }  }
+@keyframes cima_baixo {
+    from {
+        margin-top: -35px;
+    }
+    to { 
+        margin-top: -20px;
+    }  
+}
+
+.imgDes{
+    min-height: 155px;
+    width: 91.98px;
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-image: url("../imagens/atronauta_destaque.png");
+    top: -130px;
+    position: relative;
+}
+
+.conteudoLanc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 0 25px 0;
+}
+
+.conteudoDes{
+    margin-top: -140px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+
+.titulo{
+    font-family: 'Inter', sans-serif;
+    border-bottom: 2px solid #FB9B11;
+    padding-bottom: 4px;
+    text-align: center;
+}
+
+#lan{
+    width: 170px;
+}
+#des{
+    width: 130px;
+    font-size: 20px;  
+}
+#dep{
+    font-size: 20px;  
+    width: 135px; 
+}
+
+.produtos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.produto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #787878;
+    text-decoration: none;
+    color: black;
+}
+.produto:hover{
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    border-bottom: none;
+    box-shadow: 5px 5px 10px 5px #D3D3D3;
+}
+
+.imgProduto{
+    height: 250px;
+    width: 250px;
+}
+
+.nome{
+    font-size: 16px;
+    margin: 5px 0 5px 0;
+}
+.preco{
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0 0 5px 0;
+}
+.parcelamento{
+    font-size: 16px;
+    margin: 0;
+}
+
+.btnVerAll{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 8px 15px;
+    border: 1px solid #FB9B11;
+}
+.btnVerAll:hover{
+    background-color: #FB9B11;
+}
+
+
+.depoimentos{
+    background-color: #EEEEEE;
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.imgDepo{
+    min-height: 134px;
+    width: 91.98px;
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-image: url("../imagens/astronauta_depoimento.png");
+    top: -100px;
+    position: relative;
+}
+
+.conteudoDepo{
+    margin-top: -100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.imgPessoa{
+    border-radius: 100%;
+    height: 80px;
+    border: 2px solid #FB9B11;
+}
+
+.depoimento{
+    width: 280px;
+    height: 250px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    margin: 5px 15px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 10px 5px #D3D3D3;
+}
+
+.depoimento .nome{
+    color: #FB9B11;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.texto{
+    font-size: 14px;
+    color: #333333;
+}
+
+.depo{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
